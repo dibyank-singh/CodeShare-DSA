@@ -10,15 +10,21 @@ Join our community to share your knowledge, collaborate with fellow developers, 
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [Arrays](#arrays)
+2. [Arrays/String](#arraysstring)
 3. [Linked Lists](#linked-lists)
-4. [Sorting Algorithms](#sorting-algorithms)
-5. [Searching Algorithms](#searching-algorithms)
-6. [Graph Algorithms](#graph-algorithms)
-7. [Dynamic Programming](#dynamic-programming)
-8. [Hashing](#hashing)
-9. [Tree and Tree Traversal](#tree-and-tree-traversal)
-10. [Miscellaneous](#miscellaneous)
+4. [Stacks](#stacks)
+5. [Queues](#queues)
+6. [Sorting Algorithms](#sorting-algorithms)
+7. [Searching Algorithms](#searching-algorithms)
+8. [Graph Algorithms](#graph-algorithms)
+9. [Dynamic Programming](#dynamic-programming)
+10. [Hashing](#hashing)
+11. [Tree and Tree Traversal](#tree-and-tree-traversal)
+12. [Strings](#strings)
+13. [Bit Manipulation](#bit-manipulation)
+14. [Miscellaneous](#miscellaneous)
+
+
 
 Problem Solving Techniques
 
