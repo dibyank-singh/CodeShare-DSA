@@ -75,14 +75,74 @@ Problem Solving Techniques
 [Include any additional topics or algorithms not covered in the previous sections.]
 
 ## Contribution Guidelines
-[Provide instructions for contributing to the repository.]
+
+Thank you for considering contributing to our project! To make a contribution to the README.md file, please follow these guidelines:
+
+### Making Changes
+
+1. Fork the repository and clone it locally.
+2. Open the README.md file in your preferred text editor.
+3. Make your changes directly to the README.md file.
+4. Ensure your changes are clear, concise, and relevant to the project.
+5. Save your changes and commit them with a descriptive commit message.
+
+### Submitting Changes
+
+Once you have made your changes to the README.md file, submit them by following these steps:
+
+1. Push your changes to your forked repository.
+2. Create a pull request (PR) from your forked repository to the main repository.
+3. Provide a clear and descriptive title for your pull request.
+4. Explain the purpose of your changes in the pull request description.
+5. Submit the pull request and wait for it to be reviewed.
+
+### Code of Conduct
+
+- Be respectful and considerate in your contributions.
+- Avoid making unnecessary changes or adding irrelevant content.
+- Follow the project's code of conduct at all times.
+
+By contributing to this project, you agree to abide by these guidelines and adhere to the project's code of conduct.
+
+We appreciate your contributions to improving our README.md file!
+
 
 ## FAQ
-[Answer frequently asked questions related to data structures and algorithms.]
+
+Have questions about data structures, algorithms, or problem-solving techniques? Check out our frequently asked questions below:
+
+1. **Question:** What is the difference between Greedy and Dynamic Programming?
+   - **Answer:** Greedy algorithms make decisions based on the current best choice without considering the overall solution, while dynamic programming breaks down a problem into smaller sub-problems and stores the results of sub-problems to avoid redundant computations.
+
+2. **Question:** How do you compare the time complexity of Bubble Sort and Merge Sort?
+   - **Answer:** Bubble Sort has a time complexity of O(n^2), while Merge Sort has a time complexity of O(n log n). This means that Merge Sort is typically faster for large datasets due to its better time complexity.
+
+3. **Question:** What is the difference between Depth-First Search (DFS) and Breadth-First Search (BFS)?
+   - **Answer:** DFS explores as far as possible along each branch before backtracking, while BFS explores all neighbor nodes at the present depth before moving on to the nodes at the next depth level.
+
+4. **Question:** When should I use a stack instead of a queue?
+   - **Answer:** Use a stack when you need to access elements in a Last-In-First-Out (LIFO) manner, such as in reversing a string or implementing function call stack. Use a queue when you need to access elements in a First-In-First-Out (FIFO) manner, such as in implementing breadth-first search (BFS).
+
+5. **Question:** What are the advantages of using a hash table over an array?
+   - **Answer:** Hash tables offer constant-time average case for insertion, deletion, and lookup operations, while arrays require linear time for these operations in the worst-case scenario. Additionally, hash tables can handle dynamic resizing more efficiently than arrays.
+
+
 
 ## Credits
-[Acknowledge contributors and resources used in the repository.]
+
+This repository is maintained by [Dibyank Singh](https://github.com/dibyank-singh).
+
+## Contributors
+
+Contributions by [Dibyank Singh](https://github.com/dibyank-singh) and other amazing contributors.
+
+A heartfelt thank you to all contributors for their valuable contributions to this project!
+
+
 
 ## License
-[Specify the license under which the repository is distributed.]
+
+This repository is licensed under the [MIT License](LICENSE) 📝.
+
+
 
