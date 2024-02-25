@@ -135,7 +135,164 @@ while left < right:
 
 
 ## Linked Lists
-[Discuss various types of linked lists and their implementations.]
+
+Linked lists are a fundamental data structure consisting of a sequence of elements, each containing a reference to the next element in the sequence. Unlike arrays, linked lists do not have a fixed size and can grow or shrink dynamically. There are various types of linked lists, including singly linked lists, doubly linked lists, and circular linked lists, each with its own advantages and use cases.
+
+### 1. Singly Linked List
+
+Overview:
+
+In a singly linked list, each node contains a data element and a reference (or link) to the next node in the sequence. The last node points to null, indicating the end of the list. Singly linked lists are simple and efficient in terms of memory usage, but they do not support backward traversal.
+
+JavaScript Example:
+```javascript
+
+class Node {
+    constructor(data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+class SinglyLinkedList {
+    constructor() {
+        this.head = null;
+    }
+
+    append(data) {
+        const newNode = new Node(data);
+        if (!this.head) {
+            this.head = newNode;
+            return;
+        }
+
+        let current = this.head;
+        while (current.next) {
+            current = current.next;
+        }
+        current.next = newNode;
+    }
+
+    display() {
+        let current = this.head;
+        while (current) {
+            console.log(current.data);
+            current = current.next;
+        }
+    }
+}
+
+// Example usage:
+const singlyLinkedList = new SinglyLinkedList();
+singlyLinkedList.append(1);
+singlyLinkedList.append(2);
+singlyLinkedList.append(3);
+singlyLinkedList.display();
+
+```
+
+### 2. Doubly Linked List
+Overview:
+
+In a doubly linked list, each node contains a data element and two references (or links): one to the next node and one to the previous node in the sequence. This allows for both forward and backward traversal of the list. Doubly linked lists require more memory compared to singly linked lists due to the additional reference for backward traversal.
+
+```JavaScript
+class Node {
+    constructor(data) {
+        this.data = data;
+        this.prev = null;
+        this.next = null;
+    }
+}
+
+class DoublyLinkedList {
+    constructor() {
+        this.head = null;
+    }
+
+    append(data) {
+        const newNode = new Node(data);
+        if (!this.head) {
+            this.head = newNode;
+            return;
+        }
+
+        let current = this.head;
+        while (current.next) {
+            current = current.next;
+        }
+        current.next = newNode;
+        newNode.prev = current;
+    }
+
+    display() {
+        let current = this.head;
+        while (current) {
+            console.log(current.data);
+            current = current.next;
+        }
+    }
+}
+
+// Example usage:
+const doublyLinkedList = new DoublyLinkedList();
+doublyLinkedList.append(1);
+doublyLinkedList.append(2);
+doublyLinkedList.append(3);
+doublyLinkedList.display();
+
+```
+
+### 3. Circular Linked List
+Overview:
+
+In a circular linked list, the last node points back to the first node in the sequence, forming a circular loop. This means that there is no null reference, and traversal of the list can start from any node. Circular linked lists can be either singly or doubly linked. They are useful in applications where data needs to be continuously processed in a loop.
+
+```JavaScript
+class Node {
+    constructor(data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+class CircularLinkedList {
+    constructor() {
+        this.head = null;
+    }
+
+    append(data) {
+        const newNode = new Node(data);
+        if (!this.head) {
+            this.head = newNode;
+            newNode.next = this.head; // Make the new node point to itself to form a circular loop
+            return;
+        }
+
+        let current = this.head;
+        while (current.next !== this.head) {
+            current = current.next;
+        }
+        current.next = newNode;
+        newNode.next = this.head; // Make the new node point back to the head to form a circular loop
+    }
+
+    display() {
+        let current = this.head;
+        do {
+            console.log(current.data);
+            current = current.next;
+        } while (current !== this.head);
+    }
+}
+
+// Example usage:
+const circularLinkedList = new CircularLinkedList();
+circularLinkedList.append(1);
+circularLinkedList.append(2);
+circularLinkedList.append(3);
+circularLinkedList.display();
+```
 
 ## Sorting Algorithms
 [Explore different sorting algorithms like Bubble Sort, Merge Sort, etc.]
