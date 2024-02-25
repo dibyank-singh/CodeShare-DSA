@@ -294,6 +294,12 @@ circularLinkedList.append(3);
 circularLinkedList.display();
 ```
 
+## Stacks
+[ Details describe it, with example]
+
+## Queues
+[ Details description with example]
+
 ## Sorting Algorithms
 [Explore different sorting algorithms like Bubble Sort, Merge Sort, etc.]
 
