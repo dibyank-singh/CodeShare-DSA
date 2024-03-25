@@ -142,7 +142,7 @@ Linked lists are a fundamental data structure consisting of a sequence of elemen
 
 Overview:
 
-In a singly linked list, each node contains a data element and a reference (or link) to the next node in the sequence. The last node points to null, indicating the end of the list. Singly linked lists are simple and efficient in terms of memory usage, but they do not support backward traversal
+In a singly linked list, each node contains a data element and a reference (or link) to the next node in the sequence. The last node points to null, indicating the end of the list. Singly linked lists are simple and efficient in terms of memory usage, but they do not support backward traversal.
 
 JavaScript Example:
 ```javascript
