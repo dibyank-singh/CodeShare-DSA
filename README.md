@@ -295,7 +295,61 @@ circularLinkedList.display();
 ```
 
 ## Stacks
-[ Details describe it, with example]
+Overview:
+
+A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, where elements are inserted and removed from the same end called the top of the stack. It can be visualized as a collection of elements with two main operations: push (to add an element to the top of the stack) and pop (to remove the top element from the stack).
+
+Example: Stack Implementation using Array
+Explanation:
+
+In this example, we'll implement a stack using an array in JavaScript. The array's built-in methods, such as push() and pop(), make it convenient to implement the stack operations.
+JavaScript Example:
+
+
+```JavaScript
+class Stack {
+    constructor() {
+        this.items = [];
+    }
+
+    push(element) {
+        this.items.push(element);
+    }
+
+    pop() {
+        if (this.isEmpty()) {
+            return "Underflow";
+        }
+        return this.items.pop();
+    }
+
+    peek() {
+        return this.items[this.items.length - 1];
+    }
+
+    isEmpty() {
+        return this.items.length === 0;
+    }
+
+    display() {
+        let result = "";
+        for (let i = this.items.length - 1; i >= 0; i--) {
+            result += this.items[i] + " ";
+        }
+        console.log(result.trim());
+    }
+}
+
+// Example usage:
+const stack = new Stack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.display(); // Output: 3 2 1
+stack.pop();
+stack.display(); // Output: 2 1
+
+```
 
 ## Queues
 [ Details description with example]
