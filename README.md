@@ -299,11 +299,9 @@ Overview:
 
 A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, where elements are inserted and removed from the same end called the top of the stack. It can be visualized as a collection of elements with two main operations: push (to add an element to the top of the stack) and pop (to remove the top element from the stack).
 
-There are primarily two types of stacks:
-
-Array-based Stack: This type of stack is implemented using arrays. It utilizes the built-in array methods like push() and pop() to perform stack operations efficiently. The array-based stack is simple to implement and suitable for small-sized stacks.
-
-Linked List-based Stack: This type of stack is implemented using a linked list data structure. Each node in the linked list represents an element in the stack, and stack operations are performed by manipulating the pointers of the linked list nodes. The linked list-based stack is dynamic in size and can efficiently handle large-sized stacks.
+- There are primarily two types of stacks:
+  - **Array-based Stack:** This type of stack is implemented using arrays. It utilizes the built-in array methods like push() and pop() to perform stack operations efficiently. The array-based stack is simple to implement and suitable for small-sized stacks.
+  - **Linked List-based Stack:** This type of stack is implemented using a linked list data structure. Each node in the linked list represents an element in the stack, and stack operations are performed by manipulating the pointers of the linked list nodes. The linked list-based stack is dynamic in size and can efficiently handle large-sized stacks.
 
 Example: Stack Implementation using Array
 Explanation:
