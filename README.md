@@ -439,7 +439,7 @@ This repository is maintained by [Dibyank Singh](https://github.com/dibyank-sing
 
 ## Contributors
 
-Contributions by [Dibyank Singh](https://github.com/dibyank-singh) and other amazing contributors.
+Contributions by [Dibyank Singh](https://github.com/dibyank-singh) & [Sourav Bandyopadhyay](https://github.com/SouravBandyopadhyay) and other amazing contributors.
 
 A heartfelt thank you to all contributors for their valuable contributions to this project!
 
